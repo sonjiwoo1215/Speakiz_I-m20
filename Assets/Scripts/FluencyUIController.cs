@@ -30,7 +30,7 @@ public class FluencyUIController : MonoBehaviour
         float intonationScore = TrainingFetcher.instance.ft_score_3[sceneIndex];
 
         fluencyScoreText.text = fluencyScore > 0 ? $"유창성 점수: {fluencyScore:F1}" : "없음";
-        pronunciationScoreText.text = pronunciationScore > 0 ? $"발음 점수: {pronunciationScore:F1}" : "발음없음";
+        pronunciationScoreText.text = pronunciationScore > 0 ? $"발음 점수: {pronunciationScore:F1}" : "없음";
         intonationScoreText.text = intonationScore > 0 ? $"억양 점수: {intonationScore:F1}" : "없음";
     }
 
